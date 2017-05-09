@@ -17,6 +17,7 @@
 		184A64B91EC1C96900941A6C /* ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64B81EC1C96900941A6C /* ToolsUITests.m */; };
 		184A64CC1EC1C9FA00941A6C /* UtilsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64CB1EC1C9FA00941A6C /* UtilsTools.m */; };
 		184A64D81EC1D7BA00941A6C /* UIView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64D71EC1D7BA00941A6C /* UIView+Tools.m */; };
+		184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64DD1EC1E0AA00941A6C /* StringJudgeTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		184A64D51EC1D79200941A6C /* ToolsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolsMacro.h; sourceTree = "<group>"; };
 		184A64D61EC1D7BA00941A6C /* UIView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tools.h"; sourceTree = "<group>"; };
 		184A64D71EC1D7BA00941A6C /* UIView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tools.m"; sourceTree = "<group>"; };
+		184A64DC1EC1E0AA00941A6C /* StringJudgeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringJudgeTools.h; sourceTree = "<group>"; };
+		184A64DD1EC1E0AA00941A6C /* StringJudgeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringJudgeTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 			children = (
 				184A64CA1EC1C9FA00941A6C /* UtilsTools.h */,
 				184A64CB1EC1C9FA00941A6C /* UtilsTools.m */,
+				184A64DC1EC1E0AA00941A6C /* StringJudgeTools.h */,
+				184A64DD1EC1E0AA00941A6C /* StringJudgeTools.m */,
 			);
 			name = ToolsClass;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			files = (
 				184A649B1EC1C96900941A6C /* ViewController.m in Sources */,
 				184A64CC1EC1C9FA00941A6C /* UtilsTools.m in Sources */,
+				184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */,
 				184A64981EC1C96900941A6C /* AppDelegate.m in Sources */,
 				184A64D81EC1D7BA00941A6C /* UIView+Tools.m in Sources */,
 				184A64951EC1C96900941A6C /* main.m in Sources */,
