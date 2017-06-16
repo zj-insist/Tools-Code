@@ -18,6 +18,8 @@
 		184A64CC1EC1C9FA00941A6C /* UtilsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64CB1EC1C9FA00941A6C /* UtilsTools.m */; };
 		184A64D81EC1D7BA00941A6C /* UIView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64D71EC1D7BA00941A6C /* UIView+Tools.m */; };
 		184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64DD1EC1E0AA00941A6C /* StringJudgeTools.m */; };
+		1866E7421EF384BA004FD598 /* NSMutableDictionary+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866E7411EF384BA004FD598 /* NSMutableDictionary+Attributes.m */; };
+		1866E7451EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866E7441EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		184A64D71EC1D7BA00941A6C /* UIView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tools.m"; sourceTree = "<group>"; };
 		184A64DC1EC1E0AA00941A6C /* StringJudgeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringJudgeTools.h; sourceTree = "<group>"; };
 		184A64DD1EC1E0AA00941A6C /* StringJudgeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringJudgeTools.m; sourceTree = "<group>"; };
+		1866E7401EF384BA004FD598 /* NSMutableDictionary+Attributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Attributes.h"; sourceTree = "<group>"; };
+		1866E7411EF384BA004FD598 /* NSMutableDictionary+Attributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Attributes.m"; sourceTree = "<group>"; };
+		1866E7431EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CreateAttributedString.h"; sourceTree = "<group>"; };
+		1866E7441EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CreateAttributedString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,10 @@
 			children = (
 				184A64D61EC1D7BA00941A6C /* UIView+Tools.h */,
 				184A64D71EC1D7BA00941A6C /* UIView+Tools.m */,
+				1866E7401EF384BA004FD598 /* NSMutableDictionary+Attributes.h */,
+				1866E7411EF384BA004FD598 /* NSMutableDictionary+Attributes.m */,
+				1866E7431EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.h */,
+				1866E7441EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m */,
 			);
 			path = ToolsCategory;
 			sourceTree = "<group>";
@@ -317,10 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1866E7421EF384BA004FD598 /* NSMutableDictionary+Attributes.m in Sources */,
 				184A649B1EC1C96900941A6C /* ViewController.m in Sources */,
 				184A64CC1EC1C9FA00941A6C /* UtilsTools.m in Sources */,
 				184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */,
 				184A64981EC1C96900941A6C /* AppDelegate.m in Sources */,
+				1866E7451EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m in Sources */,
 				184A64D81EC1D7BA00941A6C /* UIView+Tools.m in Sources */,
 				184A64951EC1C96900941A6C /* main.m in Sources */,
 			);
