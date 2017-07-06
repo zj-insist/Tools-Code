@@ -17,7 +17,6 @@
     };
 }
 
-
 - (NSMutableDictionary *(^)(UIColor *))Color {
     return ^id(UIColor * color) {
         [self setValue:color forKey:NSForegroundColorAttributeName];
