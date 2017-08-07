@@ -22,7 +22,7 @@
 //MARK: 标记
 // !!!: 警示
 //???: 疑问标记
-#warning add warning
+//#warning add warning
 
 - (void)viewDidLoad {
     [super viewDidLoad];
