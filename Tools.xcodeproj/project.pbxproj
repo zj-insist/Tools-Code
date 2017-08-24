@@ -20,6 +20,7 @@
 		184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64DD1EC1E0AA00941A6C /* StringJudgeTools.m */; };
 		1866E7421EF384BA004FD598 /* NSMutableDictionary+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866E7411EF384BA004FD598 /* NSMutableDictionary+Attributes.m */; };
 		1866E7451EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1866E7441EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m */; };
+		186BF2791F4ECE7C002E7430 /* LeftTopLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186BF2781F4ECE7C002E7430 /* LeftTopLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		1866E7411EF384BA004FD598 /* NSMutableDictionary+Attributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Attributes.m"; sourceTree = "<group>"; };
 		1866E7431EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+CreateAttributedString.h"; sourceTree = "<group>"; };
 		1866E7441EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+CreateAttributedString.m"; sourceTree = "<group>"; };
+		186BF2771F4ECE7C002E7430 /* LeftTopLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTopLabel.h; sourceTree = "<group>"; };
+		186BF2781F4ECE7C002E7430 /* LeftTopLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTopLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 			children = (
 				184A64C61EC1C9B000941A6C /* ToolsClass */,
 				184A64CF1EC1CA2B00941A6C /* ToolsCategory */,
+				186BF2761F4ECE05002E7430 /* Subclass */,
 				184A64D01EC1CA4600941A6C /* Defines */,
 				184A64961EC1C96900941A6C /* AppDelegate.h */,
 				184A64971EC1C96900941A6C /* AppDelegate.m */,
@@ -189,6 +193,15 @@
 				184A64D51EC1D79200941A6C /* ToolsMacro.h */,
 			);
 			path = Defines;
+			sourceTree = "<group>";
+		};
+		186BF2761F4ECE05002E7430 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				186BF2771F4ECE7C002E7430 /* LeftTopLabel.h */,
+				186BF2781F4ECE7C002E7430 /* LeftTopLabel.m */,
+			);
+			path = Subclass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1866E7421EF384BA004FD598 /* NSMutableDictionary+Attributes.m in Sources */,
+				186BF2791F4ECE7C002E7430 /* LeftTopLabel.m in Sources */,
 				184A649B1EC1C96900941A6C /* ViewController.m in Sources */,
 				184A64CC1EC1C9FA00941A6C /* UtilsTools.m in Sources */,
 				184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */,

@@ -109,4 +109,12 @@
     return nil;
 }
 
++ (void)setupglobalTintColor {
+    //设置全局的UITextField的TintColor
+    [[UITextField appearance] setTintColor:[UIColor redColor]];
+    //设置全局的UITextField的TintColor
+    [[UITextView appearance] setTintColor:[UIColor redColor]];
+    //……
+}
+
 @end

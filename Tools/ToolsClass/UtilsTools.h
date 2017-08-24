@@ -42,4 +42,10 @@
  */
 + (UIColor *) colorWithHexString: (NSString *)color;
 
+
+/**
+ 设置全局的样式
+ */
++ (void)setupglobalTintColor;
+
 @end
