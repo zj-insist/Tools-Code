@@ -48,4 +48,12 @@
  */
 + (void)setupglobalTintColor;
 
+/**
+ 把数字转换成汉字
+
+ @param num <#num description#>
+ @return <#return value description#>
+ */
++ (NSString *)transformNumberToChineseWithNumber:(NSInteger)num;
+
 @end

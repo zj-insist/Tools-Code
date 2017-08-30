@@ -18,21 +18,20 @@
 }
 
 // 透明度固定为1，以0x开头的十六进制转换成的颜色
-+ (UIColor*) colorWithHex:(long)hexColor;
-{
++ (UIColor*) colorWithHex:(long)hexColor; {
     return [UtilsTools colorWithHex:hexColor alpha:1.];
 }
+
 // 0x开头的十六进制转换成的颜色,透明度可调整
-+ (UIColor *)colorWithHex:(long)hexColor alpha:(float)opacity
-{
++ (UIColor *)colorWithHex:(long)hexColor alpha:(float)opacity {
     float red = ((float)((hexColor & 0xFF0000) >> 16))/255.0;
     float green = ((float)((hexColor & 0xFF00) >> 8))/255.0;
     float blue = ((float)(hexColor & 0xFF))/255.0;
     return [UIColor colorWithRed:red green:green blue:blue alpha:opacity];
 }
+
 // 颜色转换三：iOS中十六进制的颜色（以#开头）转换为UIColor
-+ (UIColor *) colorWithHexString: (NSString *)color
-{
++ (UIColor *) colorWithHexString: (NSString *)color {
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
     
     // String should be 6 or 8 characters
@@ -72,8 +71,7 @@
 }
 
 //通过图片Data数据第一个字节 来获取图片扩展名
-- (NSString *)contentTypeForImageData:(NSData *)data
-{
+- (NSString *)contentTypeForImageData:(NSData *)data {
     uint8_t c;
     [data getBytes:&c length:1];
     switch (c)
@@ -115,6 +113,12 @@
     //设置全局的UITextField的TintColor
     [[UITextView appearance] setTintColor:[UIColor redColor]];
     //……
+}
+
++ (NSString *)transformNumberToChineseWithNumber:(NSInteger)num {
+    NSNumberFormatter *formatter = [[NSNumberFormatter alloc] init];
+    formatter.numberStyle = kCFNumberFormatterRoundHalfDown;
+    return [formatter stringFromNumber:[NSNumber numberWithInteger:num]];
 }
 
 @end
