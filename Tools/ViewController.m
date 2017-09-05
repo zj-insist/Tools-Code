@@ -10,6 +10,8 @@
 #import "NSMutableAttributedString+CreateAttributedString.h"
 #import "NSMutableDictionary+Attributes.h"
 
+#import "NSString+Tools.h"
+
 @interface ViewController ()
 
 @end
@@ -34,6 +36,10 @@
     [str makeAttributeStringAdd:@"sss" Attribute:^(NSMutableDictionary *attributes) {
         attributes.Font(13).Color([UIColor yellowColor]);
     }];
+    
+    NSDate *date = [@"2017年9月2日 14:20" stringDateFromStringFormat:@"yyyy年MM月dd日"];
+    
+    NSLog(@"%@",date);
 }
 
 

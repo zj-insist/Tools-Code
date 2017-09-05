@@ -10,6 +10,19 @@
 
 @interface NSString (Tools)
 
+/**
+ 如果是手机号返回加密后的手机号
+
+ @return <#return value description#>
+ */
 - (NSString *)hideMobilePhoneNumber;
+
+/**
+ 字符串日期转NSDate
+
+ @param format <#dateString description#>
+ @return <#return value description#>
+ */
+- (NSDate *)stringDateFromStringFormat:(NSString *)format;
 
 @end

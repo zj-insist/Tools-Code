@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182EA36E1F5D04F9003B0BF5 /* NSDate+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 182EA36D1F5D04F9003B0BF5 /* NSDate+Tools.m */; };
 		184A64951EC1C96900941A6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64941EC1C96900941A6C /* main.m */; };
 		184A64981EC1C96900941A6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A64971EC1C96900941A6C /* AppDelegate.m */; };
 		184A649B1EC1C96900941A6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184A649A1EC1C96900941A6C /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182EA36C1F5D04F9003B0BF5 /* NSDate+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Tools.h"; sourceTree = "<group>"; };
+		182EA36D1F5D04F9003B0BF5 /* NSDate+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Tools.m"; sourceTree = "<group>"; };
 		184A64901EC1C96900941A6C /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A64941EC1C96900941A6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		184A64961EC1C96900941A6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 				1866E7441EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m */,
 				18FBC2FF1F56E6DD003FD4DD /* NSString+Tools.h */,
 				18FBC3001F56E6DE003FD4DD /* NSString+Tools.m */,
+				182EA36C1F5D04F9003B0BF5 /* NSDate+Tools.h */,
+				182EA36D1F5D04F9003B0BF5 /* NSDate+Tools.m */,
 			);
 			path = ToolsCategory;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				184A64CC1EC1C9FA00941A6C /* UtilsTools.m in Sources */,
 				184A64DE1EC1E0AA00941A6C /* StringJudgeTools.m in Sources */,
 				184A64981EC1C96900941A6C /* AppDelegate.m in Sources */,
+				182EA36E1F5D04F9003B0BF5 /* NSDate+Tools.m in Sources */,
 				1866E7451EF38518004FD598 /* NSMutableAttributedString+CreateAttributedString.m in Sources */,
 				18FBC3011F56E6DE003FD4DD /* NSString+Tools.m in Sources */,
 				184A64D81EC1D7BA00941A6C /* UIView+Tools.m in Sources */,

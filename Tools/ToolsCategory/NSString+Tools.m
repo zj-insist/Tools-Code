@@ -22,4 +22,13 @@
     return self;
 }
 
+
+- (NSDate *)stringDateFromStringFormat:(NSString *)format {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:8 * 3600]];
+    [formatter setLocale:[NSLocale autoupdatingCurrentLocale]];
+    formatter.dateFormat = format;
+    return [formatter dateFromString:self];
+}
+
 @end
